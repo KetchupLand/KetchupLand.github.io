@@ -7,20 +7,16 @@
 	<title>{% if page.title %}{{ page.title }} - {% endif %}KetchupLand</title>
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" crossorigin="anonymous">
-
-	<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="icon" href="/icon.png">
 </head>
 <body>
 	<div class="index-top">
-		<a href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/logo.png' | relative_url }}"></a>
+		<a href="/"><img src="/assets/images/logo.png"></a>
 	</div>
 	<div class="nav">
 		<div class="links">
-			<a href="{{ '/' | relative_url }}">Home</a>
-			{% comment %}- <a href="about">About</a>{% endcomment %}
-			{% comment %}- <a href="gallery">Gallery</a>{% endcomment %}
-			{% comment %}- <a href="{{ 'download' | relative_url }}">Download</a>{% endcomment %}
-			{% comment %}- <a href="devblog/">Development Blog</a>{% endcomment %}
+			<a href="/">&nbsp;</a>
 			<span class="right">
 				<a href="https://discord.gg/caRDZkPQzc"><i class="fab fa-discord"></i></a>
 				<a href="https://github.com/KetchupLand"><i class="fab fa-github"></i></a>
@@ -34,7 +30,7 @@
 		</div>
 	</div>
 	<div class="footer">
-		<p>Made with &hearts; by <a href="https://github.com/danil275487">Danil_2461</a> and <a href="https://voxelmanip.se">ROllerozxa</a>
+		<p>Made with &hearts; by <a href="https://danil.voxelmanip.se">Danil_2461</a> and <a href="https://voxelmanip.se">ROllerozxa</a>
 			<br>KetchupLand is a fork of the KetchupTest game originally developed by Tim7 and licensed under the MIT license.</p>
 	</div>
 </body>

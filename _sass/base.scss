@@ -8,11 +8,13 @@ html {
 body {
 	background-color: #222222;
 	background: url('../images/kl_nodes_stone.png');
-	color: #ffffff;
+	color: white;
 	margin: 0;
 	font-family: "Fira Code", monospace;
-	font-size: 14pt;
+	font-size: 15pt;
 	padding-bottom: 100px;
+	text-shadow: 2px 2px black;
+
 }
 
 a {
@@ -29,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-	line-height: 1.4;
+	line-height: 1.6;
 }
 
 pre {
@@ -51,7 +53,7 @@ code {
 		margin-top: 10px;
 		margin-bottom: 10px;
 		image-rendering: pixelated;
-		width: 752px;
+		width: 564px;
 		max-width: 100%;
 	}
 }
@@ -60,7 +62,7 @@ code {
 	background-color: #1a1a1a;
 	background: url('../images/kl_nodes_dirt.png');
 
-	padding: 25px 50px;
+	padding: 20px 50px;
 
 	.links {
 		margin: auto;
@@ -68,7 +70,7 @@ code {
 
 		a {
 			color: white;
-			font-size: 14pt;
+			font-size: 18pt;
 			font-weight: bold;
 			text-decoration: none;
 			padding: 20px 10px;
@@ -94,82 +96,16 @@ code {
 	float: right;
 }
 
-#page-about {
-	img {
-		width: 400px;
-		float: right;
-		margin-left: 10px;
-	}
-}
-
 /// Sticky footer \\\
 
 .footer {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	height: 55px;
+	height: 65px;
 	width: 100%;
 	overflow: hidden;
 	text-align: center;
 	vertical-align: bottom;
-	font-size: 10pt;
-}
-
-/// Download page stuff \\\
-
-$btn-color: #ffffff;
-$btn-bgcolor: #2a9c2a;
-$btn-git-bgcolor: #2a8b9c;
-$btn-select-bgcolor: #2b2b2b;
-
-.btn {
-	&:hover {
-		background-color: darken($btn-bgcolor, 10%);
-	}
-
-	background-color: $btn-bgcolor;
-	color: $btn-color;
-	display: inline-block;
-
-	font-weight: bold;
-	margin-right: .5em;
-	padding: 10px 20px;
-
-	&.big {
-		font-size: 20pt;
-	}
-
-	&.git {
-		&:hover {
-			background-color: darken($btn-git-bgcolor, 10%);
-		}
-
-		background-color: $btn-git-bgcolor;
-	}
-
-	&.btn-ps {
-		&:hover {
-			background-color: darken($btn-select-bgcolor, 10%);
-		}
-
-		background-color: $btn-select-bgcolor;
-		border: 1px solid $btn-color;
-		font-size: 20pt;
-		text-align: center;
-		height: 164px;
-		width: 164px;
-
-		.fab {
-			font-size: 48pt;
-			display: block;
-			margin-top: 20px;
-			margin-bottom: 20px;
-		}
-		img.fab {
-			height: 48pt;
-			margin-left: auto;
-			margin-right: auto;
-		}
-	}
+	font-size: 11pt;
 }
